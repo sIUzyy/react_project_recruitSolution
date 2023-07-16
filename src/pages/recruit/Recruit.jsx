@@ -1,21 +1,4 @@
-const info = [
-
-  {
-    id: 1,
-    title: 'Name'
-  },
-
-  {
-    id: 2,
-    title: 'Job Role'
-  },
-
-  {
-    id: 3,
-    title: 'Location'
-  },
- 
-]
+const info = [ 'Name','Job Role','Location' ]
 
 import React, {useState} from 'react'
 import { UsersInfo } from '../../features/Data'
@@ -73,8 +56,8 @@ const Recruit = () => {
            <div className="data">
 
             <div className='grid grid-cols-3 justify-items-center font-title text-indigo-500'>
-            {info.map((i) => (
-              <div key={i.id}>{i.title}</div>
+            {info.map((i, index) => (
+              <div key={index}>{i}</div>
              
               ))}
             </div>
