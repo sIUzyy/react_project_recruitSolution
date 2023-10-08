@@ -9,5 +9,13 @@ visit the website for reference:
 https://recruiteasee.web.app/
 
 
+..Tech stack: <br>
+<ul>
+  <li>REACTJS</li>
+  <li>FIREBASE</li>
+</ul>
+
+
+
 
 
